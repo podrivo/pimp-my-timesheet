@@ -1,0 +1,14 @@
+{
+  "name": "unanet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel <ggodoyoliveira@gmail.com> (http://www.gabrielgodoy.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "unanet-client": "0.0.1"
+  }
+}
