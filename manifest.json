@@ -1,8 +1,9 @@
 {
 	"manifest_version": 2,
-	"name": "Unanet beautifier",
-	"description": "A better experience for unanet timesheet",
-	"version": "1.0",
+	"name": "Pimp my Unanet Timesheet",
+	"short_name": "Pimped Unantet",
+	"description": "A better experience for your unanet timesheet",
+	"version": "1.1",
 	"browser_action": {
 		"default_icon": "icon.png"
 	},
@@ -23,5 +24,5 @@
 		"16": "icon16.png",
 		"48": "icon48.png",
 		"128": "icon128.png"
-	},
+	}
 }
