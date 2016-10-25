@@ -1,19 +1,20 @@
 {
-  "name": "dsf",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "style": "stylus -w assets/css/main.styl -o css/custom-style.css",
-    "babel": "babel ./assets/js/main-raw.js --watch --out-file main.js"
-  },
-  "author": "Gabriel <ggodoyoliveira@gmail.com> (http://www.gabrielgodoy.com/)",
-  "license": "MIT",
-  "devDependencies": {
-    "babel-cli": "6.18.0",
-    "babel-preset-babili": "0.0.5",
-    "babel-preset-es2015": "6.18.0",
-    "stylus": "0.54.5"
-  }
+	"name": "unanet",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"style": "stylus -w assets/css/main.styl -o css/custom-style.css",
+		"babel": "babel ./assets/js/main-raw.js --watch --out-file main.js"
+	},
+	"author": "Gabriel <ggodoyoliveira@gmail.com> (http://www.gabrielgodoy.com/)",
+	"license": "MIT",
+	"devDependencies": {
+		"babel-cli": "6.18.0",
+		"babel-preset-babili": "0.0.5",
+		"babel-preset-es2015": "6.18.0",
+		"stylus": "0.54.5"
+		"test": "echo \"Error: no test specified\" && exit 1"
+	}
 }
