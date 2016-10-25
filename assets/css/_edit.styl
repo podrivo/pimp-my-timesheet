@@ -1,0 +1,102 @@
+div.time-status
+	margin: -10px 0
+
+#time #timesheet
+	width: 100%
+	margin-top: 20px
+	
+	thead tr td
+		vertical-align: middle
+		
+	td[class^=hour] span
+		font-family: secondaryFont
+		
+	> tbody:first-of-type 
+		> tr
+			background: transparent
+
+			td
+				background: transparent
+				
+			select
+				width: 100%
+				-webkit-appearance: none;
+				-webkit-border-radius: 0;
+				border: 1px solid #ccc
+				background: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24' height='24' viewBox='0 0 24 24'><path fill='#444' d='M7.406 7.828l4.594 4.594 4.594-4.594 1.406 1.406-6 6-6-6z'></path></svg>");
+				background-position: 100% 50%;
+				background-repeat: no-repeat;
+				padding: 10px
+			
+			&.activeRow,
+			&.activeRow td
+				background: transparent
+		
+		> td
+			background: transparent
+			
+		td
+			padding: 7px 7px
+			
+		td.total
+			input
+				border: none
+				background: #efefef !important
+				
+	input
+		border: none
+		border-bottom: 3px solid lightGrey
+		text-align: center
+		font-family: mainFont
+		font-size: 14px
+		
+	tbody:last-child tr
+		background: transparent
+
+		input
+			border: none
+			background: #efefef !important
+			text-align: center
+			font-size: 14px
+			font-family: mainFont
+			
+	> tfoot tr td
+		padding: 20px 20px 10px
+	
+	tbody tr
+		height: 25px
+
+		.view
+			a
+				background: url(http://image.flaticon.com/icons/png/128/34/34202.png)
+				display: block
+				background-size: 100%
+				width: 20px
+				height: 20px
+				
+				img
+					display: none
+		
+		.delete
+			a
+				background: url(http://www.freeiconspng.com/uploads/remove-icon-png-4.png)
+				display: block
+				background-size: 100%
+				width: 20px
+				height: 20px
+				
+				img
+					display: none
+
+table.timesheet tbody td.total
+	background: transparent
+	
+table.timesheet thead
+	tr
+		background: lightGrey
+		background: lightGrey
+	td
+		color: textDarkGrey
+		
+td.label-saved-criteria, td.label-separator
+	color: textDarkGrey

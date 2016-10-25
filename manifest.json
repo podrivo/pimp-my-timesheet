@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "Unanet beautifier",
+	"description": "A better experience for unanet timesheet",
+	"version": "1.0",
+	"browser_action": {
+		"default_icon": "icon.png"
+	},
+	"permissions": [
+		"https://*.unanet.biz/*"
+	],
+	"content_scripts": [{
+		"matches": ["https://hugellc.unanet.biz/*"],
+		"css": ["css/custom-style.css"]
+	}]
+}

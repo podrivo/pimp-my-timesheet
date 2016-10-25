@@ -1,0 +1,180 @@
+html
+	ul.links li
+		position: relative
+		padding-left: 13px
+		font-family: secondaryFont
+		margin-bottom: 10px
+		
+		a
+			color: textGrey
+		
+		&:before
+			background-image: none
+			border-bottom: 5px solid transparent
+			border-left: 7px solid #ec008c
+			border-top: 5px solid transparent
+			content: ''
+			height: 0
+			left: 0
+			position: absolute
+			top: 3px
+			width: 0
+			-moz-transform: scale(0.9999)
+
+	table.body-main
+		.reports > #my_reports,
+		.tips #tips,
+		.reports > #quick_links
+			border: none
+			background: lightGrey
+			padding: 20px 20px
+			border-radius: 0
+			font-family: mainFont
+
+			ul.links
+				margin: 10px 0
+
+			label,
+			a
+				color: textDarkGrey
+				
+			ul.links li
+				position: relative
+				padding-left: 13px
+				font-family: secondaryFont
+				margin-bottom: 10px
+				
+				a
+					color: textGrey
+				
+				&:before
+					background-image: none
+					border-bottom: 5px solid transparent
+					border-left: 7px solid #ec008c
+					border-top: 5px solid transparent
+					content: ''
+					height: 0
+					left: 0
+					position: absolute
+					top: 3px
+					width: 0
+					-moz-transform: scale(0.9999)
+
+		.reports > #quick_links
+			ul.links
+				margin-top: 10px
+
+			ul.links li
+				position: relative
+				padding-left: 13px
+				font-family: secondaryFont
+				margin-bottom: 7px
+
+				a
+					color: textGrey
+
+		.tips #tips
+			label
+				color: textDarkGrey
+	
+	.body-main
+		.reports + .body
+			.section
+				width: 100%
+				font-family: mainFont
+				
+				label
+					color: textDarkGrey
+			
+			thead tr > td
+				padding: 0 20px
+				
+				a
+					color: textDarkGrey
+					background-size: 100%
+					display: inline-block
+					
+					&:before
+						content: ""
+						width: 10px
+						display: inline-block
+						height: 11px
+						background: url(https://onlinehelp.coveo.com/en/cloud/images/icon-greyplus.png) no-repeat
+						background-size: 100%
+						vertical-align: middle
+					
+					img
+						display: none
+				
+			.section-body
+				padding: 0 20px
+			
+			.timesheet-list .list
+				width: 100%
+				border-collapse: collapse
+
+				thead tr td
+					vertical-align: middle
+					text-align: center
+					padding: 12px 0
+					font-family: mainFont
+					background: lightGrey
+					color: textDarkGrey
+					border: 1px solid white
+
+				tbody 
+					tr
+						border-bottom: 2px solid lightGrey
+
+						&:hover
+							td
+								border: 1px solid #f3f3f3
+								
+						&.activeRow
+							td
+								background: mainColor
+								color: white
+								border: 1px solid mainColor
+						
+						td
+							padding: 15px 5px
+							font-family: secondaryFont
+							border: 1px solid white
+							border-bottom: 1px solid lightGrey
+							vertical-align: middle
+							
+						td:nth-child(3)
+							padding: 0
+	
+						td:nth-child(7)
+							text-align: center
+							font-size: 14px
+							font-family: mainFont
+	
+						td:nth-child(8)
+							text-align: center
+	
+						td:nth-child(1)
+							a
+								background: url(http://image.flaticon.com/icons/png/128/34/34202.png)
+								display: block
+								background-size: 100%
+								width: 20px
+								height: 20px
+
+							img
+								display: none
+								
+						td:nth-child(2)
+							a
+								background: url(http://www.iconsfind.com/wp-content/uploads/2015/11/20151116_564931c13bd4c.png)
+								display: block
+								background-size: 100%
+								width: 20px
+								height: 20px
+								
+							img
+								display: none
+								
+						td:last-child
+							text-align: center

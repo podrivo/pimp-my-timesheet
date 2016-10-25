@@ -1,0 +1,38 @@
+form[name="login"] 
+	> table
+		margin: 0 auto 30px
+		font-family: secondaryFont
+		
+		tr
+			position: relative
+	
+			&:first-child
+				height: 70px
+				
+			&:last-child
+				td
+					padding-top: 30px
+					
+			td
+				vertical-align: middle
+			
+			input
+				border-top: none
+				border-right: none
+				border-left: none
+				border-bottom: 1px solid lightGrey
+				font-size: 16px
+				padding: 2px 10px
+
+	~ div.error
+		margin: 0 auto
+		font-family: secondaryFont
+		text-align: center
+		padding: 12px 15px
+		line-height: 1.7
+		
+.hint
+	padding-top: 10px
+	
+	a:hover
+		color: black !important 

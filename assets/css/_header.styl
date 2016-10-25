@@ -1,0 +1,83 @@
+@import _colors
+@import _fonts
+
+html 
+	div#page-menu
+		background mainColor
+	
+	div#page-menu td.menu
+		border-bottom none !important
+		
+	.unanet-skin.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-content
+		border none
+		
+	div#page-menu td.logo
+		img
+			display none
+	
+	div#page-menu td.right a
+		font-family secondaryFont 
+		display: inline-block !important
+		font-size: 12px !important
+		margin-right: 20px
+		
+	div#page-menu td.right a,
+	div#page-menu td.menu a:hover, 
+	div#page-menu td.submenu a:hover,
+	div#page-menu td.right a:hover
+		color: white
+		
+	div#page-menu td.menu a.inactive
+		color white
+		opacity .6
+		font-family mainFont
+		
+	div#page-menu
+		.main-menu-cont
+			tr td
+				padding-left: 20px
+				
+			td.menu + td
+				background: secondMainColor
+	
+	div#page-menu td.logo
+		background-image: url('http://www.hugeinc.com/content/images/util/logo_white.png')
+		background-repeat: no-repeat
+		width: 144px
+		height: 50px
+		background-position: 50% 50%
+	
+	#page-title.title,
+	.splash
+		display: none
+		
+	div#page-footer
+		background-color black
+		padding: 10px 0
+		
+		.about,
+		.copyright
+			font-family: secondaryFont
+			
+	body
+		display: flex
+		min-height: 100vh
+		flex-direction: column
+		
+	#body
+		flex: 1
+		
+	#menu-1
+		.first-of-type
+			border-top: 2px solid secondMainColor 
+			
+			li
+				padding: 4px
+				
+				a
+					border: none
+					border-bottom-color: none
+					
+					&:hover
+						color: white
+				
