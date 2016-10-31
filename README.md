@@ -2,7 +2,7 @@
 ###A better experience for your unanet timesheet
 
 <p align="center">
-  <img id="pimp-my-timesheet" src="pimp-my-timesheet.jpg" alt="Pimp">
+  <img id="pimp-my-timesheet" src="pimp-timesheet.jpg" alt="Pimp">
 </p>
 
 ### Start Developing
