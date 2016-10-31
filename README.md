@@ -1,4 +1,4 @@
-# Pimp my Unanet Timesheet
+# [Pimp my Unanet Timesheet](https://chrome.google.com/webstore/detail/eapljeojmnfchhalocpaabkoiephhgfe)
 ###A better experience for your unanet timesheet
 
 <p align="center">
