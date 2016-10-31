@@ -1,0 +1,8 @@
+./node_modules/**
+../node_modules/**
+node_modules
+webpack.config.babel.js
+../**/dependencies.js
+../**/deploy/**
+./web/app/mocks/hapi/**
+./web/app/modules/common/templates.js
