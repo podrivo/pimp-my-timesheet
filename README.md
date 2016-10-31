@@ -5,6 +5,9 @@
   <img id="pimp-my-timesheet" src="pimp-timesheet.jpg" alt="Pimp">
 </p>
 
+### Roadmap
+- Add custom favicon for timesheet tab
+ 
 ### Start Developing
 `npm start`
 
